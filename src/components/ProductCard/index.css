@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.item-link {
+  color: #4caa3f;
+  text-decoration: none;
+}
+
+.card-item {
+  border: 1px solid #ffffff;
+  background-color: #64836d;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-radius: 12px;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .card-item {
+    width: 47%;
+    height: 200px;
+  }
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Roboto";
+  color: #d32a52;
+  text-align: center;
+}
+.category {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Roboto";
+  color: #292623;
+  flex-grow: 1;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .category {
+    font-size: 20px;
+  }
+}

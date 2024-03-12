@@ -1,0 +1,77 @@
+/* Write your CSS here */
+.team-matches-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.responsive-container {
+  width: 90%;
+  max-width: 500px;
+  margin: 18px;
+  border: 1px solid #000000;
+  border-radius: 12px;
+  padding: 16px;
+  background-color: #bfdcbf;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    max-width: 1110px;
+  }
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin-right: 5px;
+  padding: 16px;
+}
+
+.description {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Roboto";
+  color: #10488b;
+}
+.category-1 {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Roboto";
+  color: #7e26c5;
+}
+.img-rating-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin-left: 5px;
+  padding: 16px;
+}
+.image {
+  width: 250px;
+  height: 200px;
+}
+.price {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Roboto";
+  color: #aa3357;
+}
+.rate-count {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.rating {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Roboto";
+  color: #583168;
+}

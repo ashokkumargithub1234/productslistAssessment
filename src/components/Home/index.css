@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d8cbcb;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.logo-header-container {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: "Bree Serif";
+  color: #5f3f9c;
+}
+@media screen and (min-width: 768px) {
+  .header {
+    font-size: 36px;
+  }
+}
+.loader-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.cards-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+}
